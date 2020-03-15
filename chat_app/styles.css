@@ -1,0 +1,13 @@
+#head {
+    color: #0a3d62;
+}
+#userFormArea {
+    display: none;
+}
+#online {
+    background: rgb(225, 245, 254);
+    padding: 20px;
+}
+/* #chat_box {
+    display: block;
+} */

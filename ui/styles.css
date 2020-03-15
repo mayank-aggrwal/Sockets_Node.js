@@ -1,0 +1,106 @@
+.msg {
+    display: inline-flex;
+    /* justify-content: flex-end; */
+    /* float: right; */
+    /* text-align: right; */
+    background-color: #0a3d62;
+    border-radius: 24px;
+}
+
+.msg-align-right {
+  float: right;
+}
+
+.msg-align-left {
+  float: left;
+}
+
+p {
+
+}
+
+.text {
+    line-height: 19px;
+    color: white;
+    margin: 0;
+    padding: 10px 19px;
+    font-size: 0.9em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.table {
+  display: table;
+  width: 100%;
+  margin-bottom: 2em
+}
+
+.cell {
+  display: table-cell;
+}
+
+.left {
+  background: #d00;
+}
+
+.right {
+    padding: 0;
+    display: inline-flex;
+    justify-content: flex-end;
+    /* text-align: right; */
+    background-color: #0a3d62;
+    border-radius: 24px;
+    /* text-align: right only needed for the table version */
+}
+
+.name {
+
+}
+
+.blank {
+    display: inline-block;
+    min-width: 200px;
+}
+.blank p {
+    display: inline;
+}
+
+.flex {
+  display: flex;
+  flex-flow: row;
+  min-width: 10px;
+  justify-content: space-between;
+}
+
+.flex div {
+  /* padding: 1em */
+}
+
+
+.row {
+  display: flex; /* equal height of the children */
+}
+
+.col1 {
+  flex: 1; /* additionally, equal width */
+  
+  padding: 1em;
+  
+}
+
+
+
+.col2 {
+
+  flex: 9; /* additionally, equal width */
+  /* -ms-flex-align: end; */
+  padding: 1em;
+  /* border: solid; */
+}
+
+/* .col2-align-right {
+  -ms-flex-align: end;
+}
+
+.col2-align-left {
+  -ms-flex-align: start;
+} */
